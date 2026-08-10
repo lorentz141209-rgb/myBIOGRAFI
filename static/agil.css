@@ -1,6 +1,7 @@
 /* Atur background web menggunakan gambar bg.jpg */
 body {
-    background-image: url('bg.jpg'); /* Mengambil file bg.jpg di folder yang sama */
+    body {
+    background-image: url('/static/bg.jpg'); /* Mengambil file bg.jpg di folder yang sama */
     background-size: cover;          /* Memaksa foto memenuhi seluruh layar */
     background-position: center;      /* Posisikan foto di tengah layar */
     background-repeat: no-repeat;     /* Mencegah gambar diulang-ulang */
