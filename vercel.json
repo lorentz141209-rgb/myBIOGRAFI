@@ -1,15 +1,11 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "agil.py",
-      "use": "@vercel/python"
-    }
+    { "src": "app.py", "use": "@vercel/python" },
+    { "src": "static/**", "use": "@vercel/static" }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "agil.py"
-    }
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/(.*)", "dest": "app.py" }
   ]
 }
