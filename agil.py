@@ -14,7 +14,7 @@ def home():
             "Aktif dalam kepengurusan dan kegiatan ekstrakurikuler sekolah",
             "Mewakili MAN 2 Kota Palu dalam ajang kompetisi antar pelajar"
         ],
-        "images": ["images/foto1.jpg", "images/foto2.jpg", "images/foto3.jpg"]
+        "images": ["foto1.jpeg", "foto2.jpg", "foto3.jpg"]
     }
     return render_template('index.html', data=profile_data)
 
