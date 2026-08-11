@@ -1,7 +1,7 @@
 /* Atur background web menggunakan gambar bg.jpg */
 body {
     body {
-    background-image: url('bg.jpg');
+    background-image: url('/static/bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
